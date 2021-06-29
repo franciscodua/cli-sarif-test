@@ -3,5 +3,8 @@ function myFunction() {
     console.log('bad');
   }
   debugger;
+
   console.log('test');
+  
+  debugger;
 }
