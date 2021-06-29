@@ -12,6 +12,8 @@ function myFunction() {
 
   {}
   
+  var b = new RegExp("t")
+  
   debugger;
 }
 
