@@ -1,6 +1,8 @@
 {
-    "extends": "eslint:recommended",
+    "plugins": ["security"],
+    "extends": ["eslint:recommended","plugin:security/recommended"],
     "rules": {
+
         // enable additional rules
         "indent": ["error", 4],
         "linebreak-style": ["error", "unix"],
