@@ -3,5 +3,22 @@ function myFunction() {
     console.log('bad');
   }
   debugger;
+  
+  var a = 2;
+
   console.log('test');
+  
+  variable['a'] = value;
+
+  {}
+  
+  var b = new RegExp("t")
+  
+  debugger;
+}
+
+function validateEmailFormat( string ) {
+  var emailExpression = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+
+  return emailExpression.test( string );
 }
