@@ -9,6 +9,8 @@ function myFunction() {
   console.log('test');
   
   variable['a'] = value;
+
+  {}
   
   debugger;
 }
